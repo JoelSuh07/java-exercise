@@ -6,11 +6,15 @@ import javax.swing.JFrame;
 
 public class MyFrame extends JFrame implements ActionListener{
     
+    JButton button,button2,button3,button4,button5,button6,button7,button8;
+
     MyFrame(){
 
-        JButton button = new JButton();
+        button = new JButton();
         button.setBounds(200, 100, 100, 50);
-
+        button.addActionListener(this);
+        button.setText("Button");
+        button.setFocusable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
         this.setSize(500, 500);
@@ -20,7 +24,8 @@ public class MyFrame extends JFrame implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
+        if (e.getSource() == button){
+            System.out.println("Spinach");
+        }
     }
 }
