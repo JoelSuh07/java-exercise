@@ -19,7 +19,13 @@ public class MyFrame extends JFrame implements ActionListener{
         button7 = new JButton();
         button8 = new JButton();
         button.setBounds(200, 100, 100, 50);
-        button.addActionListener(this);
+        button2.setBounds(200, 100, 100, 50);
+        button3.setBounds(200, 100, 100, 50);
+        button4.setBounds(200, 100, 100, 50);
+        button5.setBounds(200, 100, 100, 50);
+        button6.setBounds(200, 100, 100, 50);
+        button7.setBounds(200, 100, 100, 50);
+        button8.setBounds(200, 100, 100, 50);
         button.setText("Button");
         button2.setText("Button2");
         button3.setText("Button3");
