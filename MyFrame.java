@@ -52,7 +52,7 @@ public class MyFrame extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == button){
-            System.out.println("Button1");
+            System.out.println("Button1...");
         }
     }
 }
